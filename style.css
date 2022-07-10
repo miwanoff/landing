@@ -6,8 +6,12 @@ html {
 }
 
 .jumbotron {
-  background-color: #185899;
+  /* background-color: #185899; */
+  background-image: url(./images/mars2.jpg);
+  background-position: center -320px;
+
   color: #ffffff;
+  height: 300px;
 }
 
 .logo {
