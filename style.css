@@ -62,3 +62,12 @@ html {
 #prices .card {
   height: 335px;
 }
+
+.footer {
+  background: #185899;
+  padding: 40px 0;
+}
+.footer h3,
+.footer h4 {
+  color: #fff;
+}
