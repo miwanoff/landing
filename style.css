@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #185899;
+  color: #ffffff;
+}
+
+.logo {
+  color: #5bc0de;
+  font-size: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 80px;
+  }
+}
+
+.card-icon {
+  color: #5bc0de;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.card {
+  transition: box-shadow 0.5s;
+}
+
+.card-header {
+  background-color: #185899;
+  color: #fff;
+  height: 120px;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.card-footer .btn {
+  background-color: #185899;
+}
+
+.card:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-footer .btn:hover {
+  background-color: #fff;
+  color: #185899;
+}
+
+#prices .card {
+  height: 335px;
+}
