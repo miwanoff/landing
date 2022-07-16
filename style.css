@@ -25,8 +25,8 @@ html {
 .jumbotron {
   /* background-color: #185899; */
   background-image: url(./images/mars2.jpg);
-  background-position: center -320px;
-
+  background-position: center -120px;
+  background-size: cover;
   color: #ffffff;
   height: 300px;
 }
@@ -137,10 +137,33 @@ html {
   font-size: 40px;
   color: #fff;
   z-index: 9999;
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 #totop:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+
+.slideanim {
+  visibility: hidden;
+}
+
+.slide {
+  animation-name: slide;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0; /*прозрачность*/
+    transform: translateY(70%); /*смещение по оси Y*/
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
