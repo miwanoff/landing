@@ -10,6 +10,15 @@ $(document).ready(function () {
       }
     });
 
+    $(".mov_slideInRight").each(function () {
+      // для каждого блока с классом mov_slideInRight
+      pos = $(this).offset().top; // считываем его координату по оси Y в окне браузера
+      if (pos < $(window).scrollTop() + 600) {
+        //если до верха страницы остается 600px,
+        $(this).addClass("animate__slideInRight"); // добавляем к блоку класс с анимацией slideInRight
+      }
+    });
+
     // Если проскроллировали больще,чем на 200px
     if ($(window).scrollTop() > 200) {
       $("#totop").css("opacity", "0.8"); // непрозрачность восстанавливается
