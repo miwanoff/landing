@@ -15,10 +15,16 @@ $(document).ready(function () {
       $("#totop").css("opacity", "0.8"); // непрозрачность восстанавливается
       $(".navbar").css("opacity", "0.6");
       $(".logo").css("font-size", "0").css("transform", "translate(-100%,70%)");
+      $(".logo-nav")
+        .css("font-size", "30px")
+        .css("transform", "translate(0%,0%)");
     } else {
       $("#totop").css("opacity", "0"); // элемент прозрачный
       $(".navbar").css("opacity", "1");
       $(".logo").css("font-size", "120px").css("transform", "translate(0%,0%)");
+      $(".logo-nav")
+        .css("font-size", "0")
+        .css("transform", "translate(-100%,70%)");
     }
 
     /* Скроллировать фоновые слои с разной скоростью */
