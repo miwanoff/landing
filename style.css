@@ -173,3 +173,9 @@ html {
 .navbar {
   transition: opacity 0.5s;
 }
+
+/* #contact {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+} */
