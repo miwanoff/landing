@@ -179,3 +179,8 @@ html {
   animation-delay: 2s;
   animation-iteration-count: infinite;
 } */
+
+.social-likes .fab {
+  font-size: 40px;
+  color: #338bd4;
+}
