@@ -13,8 +13,10 @@ $(document).ready(function () {
     // Если проскроллировали больще,чем на 200px
     if ($(window).scrollTop() > 200) {
       $("#totop").css("opacity", "0.8"); // непрозрачность восстанавливается
+      $(".navbar").css("opacity", "0.6");
     } else {
       $("#totop").css("opacity", "0"); // элемент прозрачный
+      $(".navbar").css("opacity", "1");
     }
 
     /* Скроллировать фоновые слои с разной скоростью */

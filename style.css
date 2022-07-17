@@ -167,3 +167,7 @@ html {
     transform: translateY(0%);
   }
 }
+
+.navbar {
+  transition: opacity 0.5s;
+}
