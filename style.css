@@ -19,7 +19,8 @@ html {
 
 .logo-nav {
   color: #5bc0de;
-  font-size: 30px;
+  font-size: 0px;
+  transition: all 0.5s;
 }
 
 .jumbotron {
@@ -34,6 +35,7 @@ html {
 .logo {
   color: #5bc0de;
   font-size: 120px;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 768px) {
